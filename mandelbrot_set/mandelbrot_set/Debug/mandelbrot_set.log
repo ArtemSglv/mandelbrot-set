@@ -1,0 +1,40 @@
+﻿Построение начато 22.03.2021 17:48:27.
+     1>Проект "\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\mandelbrot_set.vcxproj" в узле 2 (целевые объекты build).
+     1>PrepareForBuild:
+         Создание каталога "\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\Debug\".
+       InitializeBuildStatus:
+         Создание "Debug\mandelbrot_set.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\main.cpp(8): warning C4273: fwrite: несовместимая компоновка dll
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(269): см. предыдущее определение "fwrite"
+     1>\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\main.cpp(9): warning C4273: clock: несовместимая компоновка dll
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.h(163): см. предыдущее определение "clock"
+     1>\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\main.cpp(11): warning C4273: fopen: несовместимая компоновка dll
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. предыдущее определение "fopen"
+     1>\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\main.cpp(24): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
+     1>\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\main.cpp(57): warning C4244: =: преобразование "long" в "char", возможна потеря данных
+     1>\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\main.cpp(75): warning C4244: =: преобразование "long" в "char", возможна потеря данных
+     1>\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\main.cpp(92): warning C4309: =: усечение константного значения
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mandelbrot_set.exe.embed.manifest.res" Debug\mandelbrot_set_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\Debug\mandelbrot_set.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mandelbrot_set.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\Debug\mandelbrot_set.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\Debug\mandelbrot_set.lib" /MACHINE:X86 Debug\mandelbrot_set.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\mandelbrot_set.exe.embed.manifest" /manifest Debug\mandelbrot_set.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\mandelbrot_set.exe.embed.manifest.res" Debug\mandelbrot_set_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\Debug\mandelbrot_set.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mandelbrot_set.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\Debug\mandelbrot_set.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\Debug\mandelbrot_set.lib" /MACHINE:X86 Debug\mandelbrot_set.exe.embed.manifest.res
+         Debug\main.obj
+         mandelbrot_set.vcxproj -> \\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\Debug\mandelbrot_set.exe
+       FinalizeBuildStatus:
+         Файл "Debug\mandelbrot_set.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\mandelbrot_set.lastbuildstate".
+     1>Построение проекта "\\csfs\home$\shcheglov_a_a\maga\mandelbrot_set\mandelbrot_set\mandelbrot_set.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:36.53
